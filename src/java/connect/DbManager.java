@@ -26,7 +26,7 @@ public class DbManager {
     {
         try{
       Class.forName("com.mysql.jdbc.Driver");
-      con=DriverManager.getConnection("jdbc:mysql://localhost:3306/nou","root","");
+      con=DriverManager.getConnection("jdbc:mysql://localhost:/nou","root","");
         }
         catch(ClassNotFoundException ex){
           ex.printStackTrace();
