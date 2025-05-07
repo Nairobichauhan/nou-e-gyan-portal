@@ -59,16 +59,6 @@ Deploy the project using NetBeans (or export a WAR file and deploy via Tomcat Ma
 
 Access via: http://localhost:8080/NOULM-Student-Portal/
 
-📸 Sample Page - Student Profile
-Displays student profile details with editable options and profile picture:
-
-jsp
-Copy
-Edit
-<img src="<%=img%>" height="100px" width="100px" />
-<%=rs.getString("name") %>
-<%=rs.getString("contactno") %>
-<%=rs.getString("emailaddress") %>
 🙋‍♂️ Contributors
 Bhawna Chauhan
 
